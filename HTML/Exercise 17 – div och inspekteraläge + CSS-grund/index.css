@@ -1,0 +1,12 @@
+.mydiv {
+    width: 200px;
+    height: 200px;
+    border: 2px solid;
+}
+
+.mynewdiv {
+    width: 200px;
+    height: 300px;
+    border: 1px solid rebeccapurple; 
+    float: left;
+}

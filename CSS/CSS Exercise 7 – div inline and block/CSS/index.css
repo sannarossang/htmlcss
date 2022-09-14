@@ -1,0 +1,73 @@
+.div {
+    height: 300px;
+    display: inline;
+}
+
+.yttre {
+    height: 300px;
+    width: 300px;
+    position: relative;
+    border: solid 2px pink;
+}
+
+/* Placerar något i mitten av något annat*/
+
+.inre {
+    height: 150px;
+    width: 150px;
+    position: relative;
+    margin: 0 auto;
+    top: 50%;
+    transform: translateY(-50%);
+    border: solid 2px blue;
+}
+
+.text {
+    height: 500px;
+    width: 500px;
+    border: solid 5px orange; 
+    text-align: center;
+}
+
+.text2 {
+    position: relative;
+    top: 50%;
+}
+
+/*Centrera texten*/ 
+
+.centrera {
+    margin: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bild {
+    height: 500px; 
+    width: 900px;
+    border: solid 2px pink;
+    position: relative;
+    text-align: center;
+}
+
+
+
+.mydiv {
+    border: 2px solid green;
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+
+.circle {
+    border: 1px solid pink;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+    margin: 0 auto;
+    top: 50%;
+    transform: translateY(-50%);
+}
