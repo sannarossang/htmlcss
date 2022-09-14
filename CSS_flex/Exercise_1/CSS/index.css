@@ -1,0 +1,33 @@
+.ruta {
+    border: solid 2px red;
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+}
+
+.ruta2 {
+    border: solid 2px red;
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+}
+
+.row {
+    background-color: aquamarine;
+}
+
+.row2 {
+    background-color: rgb(214, 128, 154);
+}
+
+.first {
+    list-style-type: upper-alpha;
+}
+
+.second {
+    list-style-type: circle;
+}
+
+.third {
+    list-style-type: lower-latin;
+}

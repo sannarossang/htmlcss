@@ -16,6 +16,23 @@ section {
     flex-direction: column;
 }
 
-@media screen (min-width: 500px;)  {
-    
+@media screen and (min-width: 769px)  {
+    aside {
+        width: 200px;
+    }
+
+    main {
+        width: 300px;
+        background-color: orange;
+    }
+
+    section {
+        width: 50px;
+    }
+
+    .container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px; 
+    }
 }
